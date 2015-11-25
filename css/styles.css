@@ -78,30 +78,30 @@ body {
 /* Label
 --------------------------------------------*/
 .label-default {
-  background-color: #ffbf00;
+  background-color: #003466;
   border-radius: 0;
 }
 /* Tooltip
 --------------------------------------------*/
 .tooltip .tooltip-inner {
-  background-color: #ffbf00;
+  background-color: #003466;
   padding: 5px 10px;
   font-size: 18px;
 }
 .tooltip .tooltip-arrow {
-  border-top-color: #ffbf00 !important;
+  border-top-color: #003466 !important;
 }
 .my-tooltip {
-  border-bottom: 1px dotted #ffbf00;
-  color: #ffbf00;
+  border-bottom: 1px dotted #003466;
+  color: #003466;
 }
 /* Links
 --------------------------------------------*/
 a {
-  color: #ffbf00;
+  color: #003466;
 }
 a:hover {
-  color: #ffbf00;
+  color: #003466;
   text-decoration: none;
 }
 /* Scroll to Top Button 
@@ -141,7 +141,7 @@ header .header-info .contact {
   margin-top: 10px;
 }
 header .header-info .language-switch {
-  background-color: #ffbf00;
+  background-color: #003466;
   margin-left: 24px;
 }
 header .header-info .language-switch a {
@@ -217,8 +217,8 @@ header.small .header-info {
   display: none;
 }
 header.small .brand {
-  margin: 24px 0 0 0;
-  width: 50%;
+  margin: 5px 0 0 0;
+  width: 130px;
 }
 header.large {
   height: 147px;
@@ -228,7 +228,7 @@ header.large .header-info {
   display: block;
 }
 header.large .brand {
-  margin: 45px 0 0 0;
+  margin: 10px 0 0 0;
   width: 100%;
 }
 /* Teaser
@@ -236,9 +236,9 @@ header.large .brand {
 #teaser {
   height: 600px;
   padding: 60px 0;
-  background-color: #ffbf00;
-  background: -webkit-linear-gradient(top, #ffbf00 0%, #fcd45f 50%, #ffbf00 100%);
-  background: linear-gradient(to bottom, #ffbf00 0%, #fcd45f 50%, #ffbf00 100%);
+  background-color: #003466;
+  background: -webkit-linear-gradient(top, #003466 0%, #235C92 50%, #003466 100%);
+  background: linear-gradient(to bottom, #003466 0%, #235C92 50%, #003466 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@mainColor', endColorstr='@mainColor', GradientType=0);
 }
 #teaser .reservation-form-shadow {
@@ -254,16 +254,16 @@ header.large .brand {
   padding: 10px 15px;
 }
 #teaser form ::-webkit-input-placeholder {
-  color: #ffbf00 !important;
+  color: #003466 !important;
 }
 #teaser form :-moz-placeholder {
-  color: #ffbf00 !important;
+  color: #003466 !important;
 }
 #teaser form ::-moz-placeholder {
-  color: #ffbf00 !important;
+  color: #003466 !important;
 }
 #teaser form :-ms-input-placeholder {
-  color: #ffbf00 !important;
+  color: #003466 !important;
 }
 #teaser form .styled-select-car {
   border: 2px solid #efe9e9;
@@ -309,7 +309,7 @@ header.large .brand {
 }
 #teaser form .input-group input {
   border-radius: 0;
-  color: #ffbf00;
+  color: #003466;
   font-size: 16px;
   padding-left: 15px;
   box-shadow: none;
@@ -369,11 +369,11 @@ header.large .brand {
   -webkit-appearance: none;
   padding: 10px 10px;
   height: 39px;
-  color: #ffbf00;
+  color: #003466;
 }
 #teaser form .submit {
   width: 100%;
-  background-color: #ffbf00;
+  background-color: #003466;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -440,40 +440,40 @@ header.large .brand {
   height: 0;
   border-left: 37px solid transparent;
   border-right: 37px solid transparent;
-  border-top: 37px solid #ffbf00;
+  border-top: 37px solid #003466;
   margin: 0 auto;
 }
 /* Services
 --------------------------------------------*/
-#services {
+#sobre {
   margin-top: 65px;
 }
-#services .title {
+#sobre .title {
   margin-bottom: 38px;
 }
-#services h2 {
+#sobre h2 {
   font-size: 46px;
   font-weight: 900;
   text-align: center;
   margin: 0 0 25px 0;
   padding: 0;
 }
-#services .underline {
+#sobre .underline {
   height: 4px;
   width: 135px;
   display: block;
-  background-color: #ffbf00;
+  background-color: #003466;
   margin: 0 auto;
 }
-#services .service-box {
+#sobre .service-box {
   background-color: #ededed;
   padding: 30px;
   margin-bottom: 30px;
 }
-#services .service-box .service-icon {
+#sobre .service-box .service-icon {
   height: 43px;
   width: 43px;
-  background-color: #ffbf00;
+  background-color: #003466;
   color: #fff;
   text-align: center;
   line-height: 40px;
@@ -482,14 +482,14 @@ header.large .brand {
   float: left;
   margin-right: 15px;
 }
-#services .service-box .service-title {
+#sobre .service-box .service-title {
   margin: 0;
   padding: 0;
   font-size: 30px;
   font-weight: 900;
   padding-top: 5px;
 }
-#services .service-box .service-content {
+#sobre .service-box .service-content {
   margin-top: 25px;
   font-size: 18px;
   line-height: 1.7;
@@ -497,7 +497,7 @@ header.large .brand {
 /* Newsletter
 --------------------------------------------*/
 #newsletter {
-  background-color: #ffbf00;
+  background-color: #003466;
   margin-top: 90px;
   padding: 90px 0;
 }
@@ -561,7 +561,7 @@ header.large .brand {
 #newsletter .social-icons ul li a {
   height: 55px;
   width: 65px;
-  background-color: #ffbf00;
+  background-color: #003466;
   display: block;
   margin-left: 10px;
   text-align: center;
@@ -595,30 +595,30 @@ header.large .brand {
 }
 /* Vehicles
 --------------------------------------------*/
-#vehicles {
+#cursos {
   margin-top: 90px;
 }
-#vehicles .title {
+#cursos .title {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 65px;
 }
-#vehicles .subtitle {
+#cursos .subtitle {
   font-weight: normal;
 }
-#vehicles .vehicle-nav {
+#cursos .vehicle-nav {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-#vehicles .vehicle-nav li {
+#cursos .vehicle-nav li {
   background-color: #e3e2e2;
   margin-bottom: 1px;
   position: relative;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-#vehicles .vehicle-nav li span {
+#cursos .vehicle-nav li span {
   width: 0px;
   height: 0px;
   border-left: 10px solid #fff;
@@ -631,17 +631,17 @@ header.large .brand {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-#vehicles .vehicle-nav li:hover {
+#cursos .vehicle-nav li:hover {
   background-color: #d1cece;
 }
-#vehicles .vehicle-nav li.active {
+#cursos .vehicle-nav li.active {
   background-color: rgba(255, 191, 0, 0.4);
   font-weight: bold;
 }
-#vehicles .vehicle-nav li.active span {
+#cursos .vehicle-nav li.active span {
   border-left-color: rgba(255, 191, 0, 0.4);
 }
-#vehicles .vehicle-nav li a {
+#cursos .vehicle-nav li a {
   font-size: 18px;
   color: #716d6e;
   padding-left: 15px;
@@ -649,14 +649,14 @@ header.large .brand {
   height: 60px;
   line-height: 60px;
 }
-#vehicles .styled-select-vehicle-data {
+#cursos .styled-select-vehicle-data {
   border: 2px solid #efe9e9;
   height: 43px;
   position: relative;
   width: 100%;
   display: none;
 }
-#vehicles .styled-select-vehicle-data:after {
+#cursos .styled-select-vehicle-data:after {
   content: '';
   background: #ffffff url('../img/dropdown-icon.png') no-repeat 5px 18px;
   right: 0px;
@@ -666,7 +666,7 @@ header.large .brand {
   position: absolute;
   pointer-events: none;
 }
-#vehicles .styled-select-vehicle-data select {
+#cursos .styled-select-vehicle-data select {
   border: none;
   font-size: 16px;
   width: 100%;
@@ -676,13 +676,13 @@ header.large .brand {
   padding: 1px 10px;
   height: 39px;
 }
-#vehicles .vehicle-img {
+#cursos .vehicle-img {
   text-align: center;
 }
-#vehicles .vehicle-img img {
+#cursos .vehicle-img img {
   display: inline-block;
 }
-#vehicles .vehicle-price {
+#cursos .vehicle-price {
   background-color: rgba(255, 191, 0, 0.4);
   height: 53px;
   line-height: 53px;
@@ -690,12 +690,12 @@ header.large .brand {
   font-size: 24px;
   font-weight: 900;
 }
-#vehicles .vehicle-price .info {
+#cursos .vehicle-price .info {
   font-weight: normal;
   font-size: 18px;
 }
-#vehicles .reserve-button {
-  background-color: #ffbf00;
+#cursos .reserve-button {
+  background-color: #003466;
   color: #fff;
   display: block;
   height: 50px;
@@ -708,36 +708,36 @@ header.large .brand {
   -webkit-transition: .2s;
   transition: .2s;
 }
-#vehicles .reserve-button:hover {
+#cursos .reserve-button:hover {
   background-color: #716d6e;
 }
-#vehicles .reserve-button span {
+#cursos .reserve-button span {
   margin-right: 7px;
 }
 /* Reviews
 --------------------------------------------*/
-#reviews {
-  margin-top: 90px;
+#depoimentos {
+  margin-top: 0px;
   padding-bottom: 25px;
 }
-#reviews .stars {
+#depoimentos .stars {
   font-size: 27px;
   margin-bottom: 10px;
 }
-#reviews .stars .big {
+#depoimentos .stars .big {
   font-size: 36px;
 }
-#reviews .review {
+#depoimentos .review {
   font-size: 24px;
   line-height: 1.7;
 }
-#reviews .author {
+#depoimentos .author {
   font-size: 18px;
   font-weight: 900;
-  color: #ffbf00;
+  color: #003466;
   margin-top: 10px;
 }
-#reviews .carousel-indicators {
+#depoimentos .carousel-indicators {
   position: absolute;
   bottom: auto;
   left: 50%;
@@ -749,7 +749,7 @@ header.large .brand {
   text-align: center;
   margin-top: 25px;
 }
-#reviews .carousel-indicators li {
+#depoimentos .carousel-indicators li {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -760,7 +760,7 @@ header.large .brand {
   cursor: pointer;
   background-color: #ccc;
 }
-#reviews .carousel-indicators .active {
+#depoimentos .carousel-indicators .active {
   margin: 0;
   width: 12px;
   height: 12px;
@@ -776,7 +776,7 @@ header.large .brand {
   position: relative;
 }
 #locations .location-select {
-  background-color: #ffbf00;
+  background-color: #003466;
   height: 93px;
 }
 #locations .location-select h2 {
@@ -817,7 +817,7 @@ header.large .brand {
   top: -70px;
 }
 #locations .map h2 {
-  color: #ffbf00;
+  color: #003466;
   padding: 0 10px;
   margin-bottom: 4px;
 }
@@ -830,44 +830,44 @@ header.large .brand {
   height: 0;
   border-left: 37px solid transparent;
   border-right: 37px solid transparent;
-  border-top: 37px solid #ffbf00;
+  border-top: 37px solid #003466;
   margin: 0 auto;
 }
-/* Information
+/* formacoes
 --------------------------------------------*/
-#information {
+#formacoes {
   margin-top: 90px;
 }
-#information .row {
+#formacoes .row {
   margin-bottom: 90px;
 }
-#information .title {
+#formacoes .title {
   font-size: 36px;
   font-weight: 900;
   margin: 0 0 30px 0;
   padding: 0;
 }
-#information .subtitle {
+#formacoes .subtitle {
   font-size: 24px;
   font-weight: normal;
   margin: 0 0 30px 0;
   padding: 0;
 }
-#information p {
+#formacoes p {
   font-size: 18px;
   line-height: 1.7;
   margin-bottom: 30px;
 }
-#information .btn-border {
+#formacoes .btn-border {
   border: 1px solid #ccc;
   padding: 1px;
   margin: 0 20px 0 0;
   display: inline-block;
 }
-#information .btn {
+#formacoes .btn {
   font-size: 24px;
   font-weight: 900;
-  background-color: #ffbf00;
+  background-color: #003466;
   color: #fff;
   border-radius: 0;
   border: none;
@@ -878,25 +878,25 @@ header.large .brand {
   -webkit-transition: .2s;
   transition: .2s;
 }
-#information .btn:hover {
+#formacoes .btn:hover {
   background-color: #716d6e;
 }
-#information .btn-gray {
+#formacoes .btn-gray {
   background-color: #716d6e;
 }
-#information .btn-gray:hover {
-  background-color: #ffbf00;
+#formacoes .btn-gray:hover {
+  background-color: #003466;
 }
-#information .video {
+#formacoes .video {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
-#information .video iframe,
-#information .video object,
-#information.video embed {
+#formacoes .video iframe,
+#formacoes .video object,
+#formacoes.video embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -923,7 +923,7 @@ header.large .brand {
   height: 4px;
   width: 135px;
   display: block;
-  background-color: #ffbf00;
+  background-color: #003466;
   margin: 0 auto;
 }
 #partners p {
@@ -950,7 +950,7 @@ header.large .brand {
   font-weight: 900;
 }
 #contact .contact-info .highlight {
-  color: #ffbf00;
+  color: #003466;
 }
 #contact form .form-group {
   margin-bottom: 20px;
@@ -1004,7 +1004,7 @@ header.large .brand {
 #contact form .submit-message {
   font-size: 24px;
   font-weight: 900;
-  background-color: #ffbf00;
+  background-color: #003466;
   color: #fff;
   border: none;
   line-height: 47px;
@@ -1028,10 +1028,10 @@ header.large .brand {
 }
 #contact .contact-box .highlight {
   font-weight: bold;
-  color: #ffbf00;
+  color: #003466;
 }
 #contact .contact-box img {
-  border: 1px solid #ffbf00;
+  border: 1px solid #003466;
   float: left;
   margin-right: 20px;
 }
@@ -1040,7 +1040,7 @@ header.large .brand {
   font-weight: bold;
 }
 #contact .contact-box-border {
-  background-color: #ffbf00;
+  background-color: #003466;
   height: 10px;
   margin-top: 1px;
   margin-bottom: 8px;
@@ -1048,6 +1048,235 @@ header.large .brand {
 #contact .contact-box-divider {
   height: 10px;
 }
+
+
+ /*** Novo Form ***/
+
+#contact .reservation-form-shadow {
+  height: 480px;
+  background-color: #fff;
+  box-shadow: 0 9px 0px 0px #ffffff, 0 -9px 0px 0px #ffffff, 7px 0 15px -4px rgba(0, 0, 0, 0.3), -7px 0 15px -4px rgba(0, 0, 0, 0.3);
+}
+#contact form {
+  padding: 34px;
+}
+#contact form .alert {
+  margin-top: -20px;
+  padding: 10px 15px;
+}
+#contact form ::-webkit-input-placeholder {
+  color: #003466 !important;
+}
+#contact form :-moz-placeholder {
+  color: #003466 !important;
+}
+#contact form ::-moz-placeholder {
+  color: #003466 !important;
+}
+#contact form :-ms-input-placeholder {
+  color: #003466 !important;
+}
+#contact form .styled-select-car {
+  border: 2px solid #efe9e9;
+  height: 55px;
+  position: relative;
+  margin-bottom: 23px;
+}
+#contact form .styled-select-car:after {
+  content: '';
+  background: #ffffff url('../img/dropdown-icon.png') no-repeat 5px 23px;
+  right: 0px;
+  top: 0px;
+  width: 30px;
+  height: 51px;
+  position: absolute;
+  pointer-events: none;
+}
+#contact form .styled-select-car select {
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-image: none;
+  background: #fff;
+  -webkit-appearance: none;
+  padding: 9px 10px;
+  height: 51px;
+  outline: none;
+}
+#contact form .location {
+  margin-bottom: 27px;
+}
+#contact form .datetime {
+  margin-bottom: 11px;
+}
+#contact form .form-control {
+  height: 43px;
+  border: 2px solid #efe9e9;
+  box-shadow: none;
+}
+#contact form .input-group {
+  width: 100%;
+}
+#contact form .input-group input {
+  border-radius: 0;
+  color: #003466;
+  font-size: 16px;
+  padding-left: 15px;
+  box-shadow: none;
+  background: none;
+  -webkit-appearance: none;
+}
+#contact form .input-group-addon {
+  border-radius: 0;
+  border: none;
+  background-color: #efe9e9;
+  font-weight: bold;
+  font-size: 16px;
+  color: #716d6e;
+  width: 110px;
+  text-align: left;
+}
+#contact form .input-group-addon .glyphicon {
+  font-size: 17px;
+  margin: 0 2px 0 -2px;
+}
+#contact form .different-drop-off {
+  color: #716d6e;
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+#contact form .date {
+  width: 240px;
+}
+#contact form .time {
+  width: 140px;
+}
+#contact form .pixelfix {
+  border-top: 1px solid #fff;
+}
+#contact form .styled-select-time {
+  border: 2px solid #efe9e9;
+  height: 43px;
+  position: relative;
+}
+#contact form .styled-select-time:after {
+  content: '';
+  background: #ffffff url('../img/dropdown-icon.png') no-repeat 5px 18px;
+  right: 0px;
+  top: 0px;
+  width: 30px;
+  height: 39px;
+  position: absolute;
+  pointer-events: none;
+}
+#contact form .styled-select-time select {
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  background-image: none;
+  background: #fff;
+  -webkit-appearance: none;
+  padding: 10px 10px;
+  height: 39px;
+  color: #003466;
+}
+#contact form .submit {
+  width: 100%;
+  background-color: #003466;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 6px 6px 0 #efe9e9;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px 0;
+  margin-top: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#contact form .submit:hover {
+  background-color: #716d6e;
+}
+#contact .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0;
+}
+#contact .subtitle {
+  font-size: 24px;
+  color: #716d6e;
+  text-transform: none;
+  display: block;
+  font-weight: normal;
+  margin-top: 10px;
+}
+#contact .car-img {
+  height: 375px;
+  text-align: center;
+  line-height: 400px;
+}
+#contact .car-img img {
+  display: inline-block;
+}
+#contact .carousel-control {
+  position: relative;
+}
+#contact .carousel-control.left,
+#contact .carousel-control.right {
+  background-image: none;
+  margin: 0;
+  width: 30px;
+}
+#contact .carousel-control.left {
+  left: 90%;
+}
+#contact .carousel-control.right {
+  left: 95%;
+}
+#contact .carousel-control .glyphicon-chevron-left,
+#contact .carousel-control .glyphicon-chevron-right {
+  margin: 0;}
+
+
+#contact .contact-box-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact .contact-box {
+  background-color: #ededed;
+  padding: 20px;
+}
+#contact .contact-box .highlight {
+  font-weight: bold;
+  color: #003466;
+}
+#contact .contact-box img {
+  border: 1px solid #003466;
+  float: left;
+  margin-right: 20px;
+}
+#contact .contact-box-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+#contact .contact-box-border {
+  background-color: #003466;
+  height: 10px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+#contact .contact-box-divider {
+  height: 10px;
+}
+
+
+
 /* Footer
 --------------------------------------------*/
 footer {
@@ -1083,7 +1312,7 @@ footer .footer-nav li a {
 }
 #checkoutModal .modal-header {
   color: #fff;
-  background-color: #ffbf00;
+  background-color: #003466;
   border-bottom: none;
 }
 #checkoutModal .modal-title {
@@ -1110,7 +1339,7 @@ footer .footer-nav li a {
 #checkoutModal .modal-body h3 {
   margin: 0;
   font-size: 18px;
-  color: #ffbf00;
+  color: #003466;
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -1279,7 +1508,7 @@ footer .footer-nav li a {
 #checkoutModal .modal-footer .btn {
   font-size: 24px;
   font-weight: 900;
-  background-color: #ffbf00;
+  background-color: #003466;
   color: #fff;
   border-radius: 0;
   height: 47px;
@@ -1297,7 +1526,7 @@ footer .footer-nav li a {
   border-color: #ffd992;
 }
 #checkoutModal .modal-footer .btn-yellow button {
-  background-color: #ffbf00;
+  background-color: #003466;
 }
 #checkoutModal .modal-footer .btn-gray {
   border-color: #b8b6b6;
@@ -1310,7 +1539,7 @@ footer .footer-nav li a {
 /* Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {
   /* Header
-	--------------------------------------------*/
+  --------------------------------------------*/
   header.large .brand {
     width: 75%;
   }
@@ -1330,7 +1559,7 @@ footer .footer-nav li a {
     margin: 28px 0 0 0;
   }
   /* Teaser
-	--------------------------------------------*/
+  --------------------------------------------*/
   #teaser form .styled-select-car select {
     font-size: 21px;
   }
@@ -1374,28 +1603,28 @@ footer .footer-nav li a {
     height: 465px;
   }
   /* Services
-	--------------------------------------------*/
-  #services h2 {
+  --------------------------------------------*/
+  #sobre h2 {
     font-size: 42px;
     margin: 0 0 20px 0;
   }
-  #services .service-box .service-icon {
+  #sobre .service-box .service-icon {
     height: 38px;
     width: 38px;
     line-height: 37px;
     font-size: 36px;
   }
-  #services .service-box .service-title {
+  #sobre .service-box .service-title {
     font-size: 24px;
     padding-top: 6px;
   }
-  #services .service-box .service-content {
+  #sobre .service-box .service-content {
     margin-top: 20px;
     font-size: 16px;
     line-height: 1.5;
   }
   /* Newsletter
-	--------------------------------------------*/
+  --------------------------------------------*/
   #newsletter .title {
     font-size: 24px;
   }
@@ -1416,41 +1645,41 @@ footer .footer-nav li a {
     font-size: 31px;
   }
   /* Vehicles
-	--------------------------------------------*/
-  #vehicles .title {
+  --------------------------------------------*/
+  #cursos .title {
     font-size: 32px;
   }
-  #vehicles .vehicle-nav li a {
+  #cursos .vehicle-nav li a {
     font-size: 16px;
     height: 55px;
     line-height: 55px;
   }
-  #vehicles .vehicle-price {
+  #cursos .vehicle-price {
     font-size: 20px;
   }
-  #vehicles .vehicle-price {
+  #cursos .vehicle-price {
     font-size: 20px;
   }
-  #vehicles .vehicle-price .info {
+  #cursos .vehicle-price .info {
     font-size: 16px;
   }
-  #vehicles .table {
+  #cursos .table {
     font-size: 12px;
   }
-  #vehicles .reserve-button {
+  #cursos .reserve-button {
     font-size: 22px;
   }
-  #vehicles .reserve-button {
+  #cursos .reserve-button {
     font-size: 22px;
   }
-  #reviews .review {
+  #depoimentos .review {
     font-size: 18px;
   }
-  #reviews .author {
+  #depoimentos .author {
     font-size: 16px;
   }
   /* Locations
-	--------------------------------------------*/
+  --------------------------------------------*/
   #locations .location-select h2 {
     font-size: 28px;
     margin: 30px 0 0 21px;
@@ -1458,26 +1687,26 @@ footer .footer-nav li a {
   #locations .map {
     height: 500px;
   }
-  /* Information
-	--------------------------------------------*/
-  #information .title {
+  /* formacoes
+  --------------------------------------------*/
+  #formacoes .title {
     font-size: 28px;
     margin: 0 0 20px 0;
   }
-  #information .subtitle {
+  #formacoes .subtitle {
     font-size: 20px;
     margin: 0 0 30px 0;
   }
-  #information p {
+  #formacoes p {
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 20px;
   }
-  #information .btn {
+  #formacoes .btn {
     font-size: 20px;
   }
   /* Partners
-	--------------------------------------------*/
+  --------------------------------------------*/
   #partners h2 {
     font-size: 42px;
     margin: 0 0 20px 0;
@@ -1486,7 +1715,7 @@ footer .footer-nav li a {
     font-size: 16px;
   }
   /* Contact
-	--------------------------------------------*/
+  --------------------------------------------*/
   #contact h2 {
     font-size: 32px;
   }
@@ -1525,8 +1754,235 @@ footer .footer-nav li a {
   #contact form .submit-message {
     font-size: 20px;
   }
+
+    /*** Novo Form ***/
+
+#contact .reservation-form-shadow {
+  height: 480px;
+  background-color: #fff;
+  box-shadow: 0 9px 0px 0px #ffffff, 0 -9px 0px 0px #ffffff, 7px 0 15px -4px rgba(0, 0, 0, 0.3), -7px 0 15px -4px rgba(0, 0, 0, 0.3);
+}
+#contact form {
+  padding: 34px;
+}
+#contact form .alert {
+  margin-top: -20px;
+  padding: 10px 15px;
+}
+#contact form ::-webkit-input-placeholder {
+  color: #003466 !important;
+}
+#contact form :-moz-placeholder {
+  color: #003466 !important;
+}
+#contact form ::-moz-placeholder {
+  color: #003466 !important;
+}
+#contact form :-ms-input-placeholder {
+  color: #003466 !important;
+}
+#contact form .styled-select-car {
+  border: 2px solid #efe9e9;
+  height: 55px;
+  position: relative;
+  margin-bottom: 23px;
+}
+#contact form .styled-select-car:after {
+  content: '';
+  background: #ffffff url('../img/dropdown-icon.png') no-repeat 5px 23px;
+  right: 0px;
+  top: 0px;
+  width: 30px;
+  height: 51px;
+  position: absolute;
+  pointer-events: none;
+}
+#contact form .styled-select-car select {
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-image: none;
+  background: #fff;
+  -webkit-appearance: none;
+  padding: 9px 10px;
+  height: 51px;
+  outline: none;
+}
+#contact form .location {
+  margin-bottom: 27px;
+}
+#contact form .datetime {
+  margin-bottom: 11px;
+}
+#contact form .form-control {
+  height: 43px;
+  border: 2px solid #efe9e9;
+  box-shadow: none;
+}
+#contact form .input-group {
+  width: 100%;
+}
+#contact form .input-group input {
+  border-radius: 0;
+  color: #003466;
+  font-size: 16px;
+  padding-left: 15px;
+  box-shadow: none;
+  background: none;
+  -webkit-appearance: none;
+}
+#contact form .input-group-addon {
+  border-radius: 0;
+  border: none;
+  background-color: #efe9e9;
+  font-weight: bold;
+  font-size: 16px;
+  color: #716d6e;
+  width: 110px;
+  text-align: left;
+}
+#contact form .input-group-addon .glyphicon {
+  font-size: 17px;
+  margin: 0 2px 0 -2px;
+}
+#contact form .different-drop-off {
+  color: #716d6e;
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+#contact form .date {
+  width: 240px;
+}
+#contact form .time {
+  width: 140px;
+}
+#contact form .pixelfix {
+  border-top: 1px solid #fff;
+}
+#contact form .styled-select-time {
+  border: 2px solid #efe9e9;
+  height: 43px;
+  position: relative;
+}
+#contact form .styled-select-time:after {
+  content: '';
+  background: #ffffff url('../img/dropdown-icon.png') no-repeat 5px 18px;
+  right: 0px;
+  top: 0px;
+  width: 30px;
+  height: 39px;
+  position: absolute;
+  pointer-events: none;
+}
+#contact form .styled-select-time select {
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  background-image: none;
+  background: #fff;
+  -webkit-appearance: none;
+  padding: 10px 10px;
+  height: 39px;
+  color: #003466;
+}
+#contact form .submit {
+  width: 100%;
+  background-color: #003466;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 6px 6px 0 #efe9e9;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px 0;
+  margin-top: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#contact form .submit:hover {
+  background-color: #716d6e;
+}
+#contact .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0;
+}
+#contact .subtitle {
+  font-size: 24px;
+  color: #716d6e;
+  text-transform: none;
+  display: block;
+  font-weight: normal;
+  margin-top: 10px;
+}
+#contact .car-img {
+  height: 375px;
+  text-align: center;
+  line-height: 400px;
+}
+#contact .car-img img {
+  display: inline-block;
+}
+#contact .carousel-control {
+  position: relative;
+}
+#contact .carousel-control.left,
+#contact .carousel-control.right {
+  background-image: none;
+  margin: 0;
+  width: 30px;
+}
+#contact .carousel-control.left {
+  left: 90%;
+}
+#contact .carousel-control.right {
+  left: 95%;
+}
+#contact .carousel-control .glyphicon-chevron-left,
+#contact .carousel-control .glyphicon-chevron-right {
+  margin: 0;}
+
+
+#contact .contact-box-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+#contact .contact-box {
+  background-color: #ededed;
+  padding: 20px;
+}
+#contact .contact-box .highlight {
+  font-weight: bold;
+  color: #003466;
+}
+#contact .contact-box img {
+  border: 1px solid #003466;
+  float: left;
+  margin-right: 20px;
+}
+#contact .contact-box-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+#contact .contact-box-border {
+  background-color: #003466;
+  height: 10px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+#contact .contact-box-divider {
+  height: 10px;
+}
+
+
   /* Footer
-	--------------------------------------------*/
+  --------------------------------------------*/
   footer .footer-nav li a {
     font-size: 16px;
   }
@@ -1534,7 +1990,7 @@ footer .footer-nav li a {
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   /* Header
-	--------------------------------------------*/
+  --------------------------------------------*/
   header .brand {
     display: none;
   }
@@ -1561,12 +2017,12 @@ footer .footer-nav li a {
     position: absolute;
     width: 100%;
     margin: 15px 0 0 0;
-    border: 14px solid #ffbf00;
+    border: 14px solid #003466;
     border-top: none;
     box-shadow: 0px 4px 1px -1px rgba(50, 50, 50, 0.32);
   }
   /* Teaser
-	--------------------------------------------*/
+  --------------------------------------------*/
   #teaser {
     height: 1100px;
   }
@@ -1583,7 +2039,7 @@ footer .footer-nav li a {
     width: 32%;
   }
   /* Newsletter
-	--------------------------------------------*/
+  --------------------------------------------*/
   #newsletter .title {
     text-align: center;
     margin-bottom: 25px;
@@ -1601,21 +2057,21 @@ footer .footer-nav li a {
     float: none;
   }
   /* Vehicles
-	--------------------------------------------*/
-  #vehicles .styled-select-vehicle-data {
+  --------------------------------------------*/
+  #cursos .styled-select-vehicle-data {
     display: block;
   }
-  #vehicles .vehicle-nav {
+  #cursos .vehicle-nav {
     display: none;
   }
-  #vehicles .vehicle-img {
+  #cursos .vehicle-img {
     margin: 15px 0;
   }
-  #vehicles .vehicle-img img {
+  #cursos .vehicle-img img {
     display: inline-block;
   }
   /* Locations
-	--------------------------------------------*/
+  --------------------------------------------*/
   #locations .location-select {
     height: 155px;
   }
@@ -1625,20 +2081,20 @@ footer .footer-nav li a {
   #locations .styled-select-location {
     margin: 22px 21px 0 22px;
   }
-  /* Information
-	--------------------------------------------*/
-  #information {
+  /* formacoes
+  --------------------------------------------*/
+  #formacoes {
     text-align: center;
   }
-  #information img {
+  #formacoes img {
     display: inline-block;
     margin-bottom: 25px;
   }
-  #information .video {
+  #formacoes .video {
     margin-bottom: 25px;
   }
   /* Partners
-	--------------------------------------------*/
+  --------------------------------------------*/
   #partners {
     padding-bottom: 50px;
   }
@@ -1647,12 +2103,12 @@ footer .footer-nav li a {
     margin-bottom: 40px;
   }
   /* Contact
-	--------------------------------------------*/
+  --------------------------------------------*/
   #contact .contact-info {
     margin-top: 40px;
   }
   /* CheckOut Modal
-	--------------------------------------------*/
+  --------------------------------------------*/
   #checkoutModal .modal-dialog {
     width: 100%;
     margin: 0;
@@ -1670,7 +2126,7 @@ footer .footer-nav li a {
 /* Small devices (660px and down) */
 @media (max-width: 660px) {
   /* CheckOut Modal
-	--------------------------------------------*/
+  --------------------------------------------*/
   #checkoutModal .vehicle-info {
     padding: 0 0 0 45px;
     float: none;
@@ -1727,4 +2183,45 @@ footer .footer-nav li a {
   .collapse.in {
     display: block !important;
   }
+}
+
+
+/**********************************************
+********************CUSTOM*********************
+**********************************************/
+
+#depoimentos h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 25px;
+    padding: 0px;
+}
+
+#formacoes h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 25px;
+    padding: 0px;
+}
+
+
+#depoimentos .underline {
+    height: 4px;
+    width: 135px;
+    display: block;
+    background-color: #003466;
+    margin: 0px auto 30px;
+}
+
+
+#formacoes .underline {
+    height: 4px;
+    width: 135px;
+    display: block;
+    background-color: #003466;
+    margin: 0px auto 50px;
+}
+
 }
