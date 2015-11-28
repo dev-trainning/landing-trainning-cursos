@@ -142,7 +142,7 @@ header .header-info .contact {
 }
 header .header-info .language-switch {
   background-color: #003466;
-  margin-left: 24px;
+  margin-left: 0px;
 }
 header .header-info .language-switch a {
   color: #fff;
@@ -294,7 +294,7 @@ header.large .brand {
   outline: none;
 }
 #teaser form .location {
-  margin-bottom: 27px;
+  margin-bottom: 10px;
 }
 #teaser form .datetime {
   margin-bottom: 11px;
@@ -337,13 +337,14 @@ header.large .brand {
   display: block;
 }
 #teaser form .date {
-  width: 240px;
+  width: inherit;
 }
 #teaser form .time {
-  width: 140px;
+  width: 270px;
 }
 #teaser form .pixelfix {
   border-top: 1px solid #fff;
+  height: 42px
 }
 #teaser form .styled-select-time {
   border: 2px solid #efe9e9;
@@ -446,7 +447,7 @@ header.large .brand {
 /* Services
 --------------------------------------------*/
 #sobre {
-  margin-top: 65px;
+  margin-top: 30px;
 }
 #sobre .title {
   margin-bottom: 38px;
@@ -646,8 +647,8 @@ header.large .brand {
   color: #716d6e;
   padding-left: 15px;
   display: block;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
 }
 #cursos .styled-select-vehicle-data {
   border: 2px solid #efe9e9;
@@ -717,7 +718,7 @@ header.large .brand {
 /* Reviews
 --------------------------------------------*/
 #depoimentos {
-  margin-top: 0px;
+  margin-top: 100px;
   padding-bottom: 25px;
 }
 #depoimentos .stars {
@@ -1059,6 +1060,7 @@ header.large .brand {
 }
 #contact form {
   padding: 34px;
+  border: 1px solid #ccc;
 }
 #contact form .alert {
   margin-top: -20px;
