@@ -4,7 +4,7 @@
 // Config 
 //-------------------------------------------------------------
 
-var companyName = "Car Rental Station"; // Enter your event title
+var companyName = "Centro de Treinamento"; // Enter your event title
 
 
 // Initialize Tooltip  
@@ -163,7 +163,7 @@ function loadMap(addressData){
 
 loadMap(locations[0].value);
 
-$("#location-map-select").append('<option value="'+locations[0].value+'">Please select a location</option>');  
+$("#location-map-select").append('<option value="'+locations[0].value+'">Escolha uma Unidade</option>');  
 $.each(locations, function( index, value ) {
   var option = '<option value="'+value.value+'">'+value.value+'</option>';
   $("#location-map-select").append(option);

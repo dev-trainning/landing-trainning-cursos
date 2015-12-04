@@ -1,9 +1,10 @@
 var locations = [
-{ value: "Santa Monica - 2102 Lincoln Blvd"},
-{ value: "Los Angeles - 5711 W Century Blvd"},
-{ value: "Las Vegas - 6401 Centennial Center Blvd"},
-{ value: "New York - 610 Warren St"},
-{ value: "Orlando - 2125 W Landstreet Rd"},
-{ value: "Washington - 50 Massachusetts Ave NE"},
-{ value: "Denver - 7800 E Tufts Ave"}
+{ value: "São Paulo - Av Paulista 2006 16º andar"},
+{ value: "Rio de Janeiro - Rua Presidente Vargas 290 13º andar"},
+{ value: "Brasília - CRS 502 Bloco C Entrada 22 W2 - Asa Sul"},
+{ value: "Belo Horizonte - Rua Sergipe, 353 2andar"},
+{ value: "Recife - Rua do Paissandu, 567 - Sala 103"},
+{ value: "Goiânia - Rua C247 nº 270 qd 548 Lt 24 Jardim América"},
+{ value: "Manaus - Rua Visconde de Sinimbu, nº 42 - Floresâ"},
+{ value: "Salvador - Rua Rio Grande do Sul, Nº 356 - Pituba, Salvador - Bahia"},
 ];

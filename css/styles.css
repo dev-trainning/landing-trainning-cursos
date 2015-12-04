@@ -141,7 +141,7 @@ header .header-info .contact {
   margin-top: 10px;
 }
 header .header-info .language-switch {
-  background-color: #003466;
+  background-color: #A7A7A7;
   margin-left: 0px;
 }
 header .header-info .language-switch a {
@@ -149,7 +149,7 @@ header .header-info .language-switch a {
   font-weight: bold;
   display: block;
   padding: 11px 45px 8px 15px;
-  background: transparent url('../img/lang-select-icon.png') no-repeat 154px 14px;
+  background: transparent url('../img/lang-select-icon.png') no-repeat 80px 14px;
 }
 header .header-info .language-switch .dropdown-menu {
   box-shadow: none;
@@ -176,7 +176,7 @@ header .navbar-default {
   border-radius: 0;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 header .navbar-brand {
   display: none;
@@ -210,26 +210,27 @@ header .navbar-default .navbar-nav > li > a:hover {
   margin-right: -9px;
 }
 header.small {
-  height: 95px;
+  height: 65px;
   box-shadow: 0 0px 14px -2px #808080;
+  display: none;
 }
 header.small .header-info {
   display: none;
 }
 header.small .brand {
-  margin: 5px 0 0 0;
-  width: 130px;
+  margin: 0;
+  width: 100px;
 }
 header.large {
-  height: 147px;
+  height: 110px;
   box-shadow: none;
 }
 header.large .header-info {
   display: block;
 }
 header.large .brand {
-  margin: 10px 0 0 0;
-  width: 100%;
+  margin: 7px 0 0 0;
+  width: 150px;
 }
 /* Teaser
 -------------------------------------*/
@@ -242,7 +243,7 @@ header.large .brand {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@mainColor', endColorstr='@mainColor', GradientType=0);
 }
 #teaser .reservation-form-shadow {
-  height: 480px;
+  height: 450px;
   background-color: #fff;
   box-shadow: 0 9px 0px 0px #ffffff, 0 -9px 0px 0px #ffffff, 7px 0 15px -4px rgba(0, 0, 0, 0.3), -7px 0 15px -4px rgba(0, 0, 0, 0.3);
 }
@@ -425,9 +426,11 @@ header.large .brand {
 }
 #teaser .carousel-control.left {
   left: 90%;
+  display: none;
 }
 #teaser .carousel-control.right {
   left: 95%;
+  display: none;
 }
 #teaser .carousel-control .glyphicon-chevron-left,
 #teaser .carousel-control .glyphicon-chevron-right {
@@ -447,17 +450,19 @@ header.large .brand {
 /* Services
 --------------------------------------------*/
 #sobre {
-  margin-top: 30px;
+  margin-top: 90px;
 }
 #sobre .title {
   margin-bottom: 38px;
 }
 #sobre h2 {
-  font-size: 46px;
+  font-size: 50px;
   font-weight: 900;
   text-align: center;
   margin: 0 0 25px 0;
   padding: 0;
+  color: #003466;
+  text-transform: uppercase;
 }
 #sobre .underline {
   height: 4px;
@@ -499,7 +504,7 @@ header.large .brand {
 --------------------------------------------*/
 #newsletter {
   background-color: #003466;
-  margin-top: 90px;
+  margin-top: 0px;
   padding: 90px 0;
 }
 #newsletter .title {
@@ -597,7 +602,7 @@ header.large .brand {
 /* Vehicles
 --------------------------------------------*/
 #cursos {
-  margin-top: 90px;
+  margin-top: 0px;
 }
 #cursos .title {
   font-size: 36px;
@@ -622,13 +627,13 @@ header.large .brand {
 #cursos .vehicle-nav li span {
   width: 0px;
   height: 0px;
-  border-left: 10px solid #fff;
+  border-left: 10px solid #C1E0FE;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   display: block;
   position: absolute;
   right: -10px;
-  top: 20px;
+  top: 15px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -636,11 +641,11 @@ header.large .brand {
   background-color: #d1cece;
 }
 #cursos .vehicle-nav li.active {
-  background-color: rgba(255, 191, 0, 0.4);
+  background-color: rgba(0, 52, 102, 0.42);
   font-weight: bold;
 }
 #cursos .vehicle-nav li.active span {
-  border-left-color: rgba(255, 191, 0, 0.4);
+  border-left-color: rgba(0, 52, 102, 0.42);
 }
 #cursos .vehicle-nav li a {
   font-size: 18px;
@@ -649,7 +654,12 @@ header.large .brand {
   display: block;
   height: 50px;
   line-height: 50px;
+  letter-spacing: -0.3px;
 }
+#cursos .vehicle-nav li.active a{
+  color: #fff;
+}
+
 #cursos .styled-select-vehicle-data {
   border: 2px solid #efe9e9;
   height: 43px;
@@ -684,16 +694,21 @@ header.large .brand {
   display: inline-block;
 }
 #cursos .vehicle-price {
-  background-color: rgba(255, 191, 0, 0.4);
+  background-color: rgba(0, 52, 102, 0.42);
   height: 53px;
   line-height: 53px;
-  padding: 0 10px;
+  padding: 8px 10px;
   font-size: 24px;
   font-weight: 900;
+  color: #003466;
+  text-align:center;
 }
 #cursos .vehicle-price .info {
-  font-weight: normal;
-  font-size: 18px;
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    top: -13px;
+    color:#fff;
 }
 #cursos .reserve-button {
   background-color: #003466;
@@ -718,12 +733,12 @@ header.large .brand {
 /* Reviews
 --------------------------------------------*/
 #depoimentos {
-  margin-top: 100px;
+  margin-top: 90px;
   padding-bottom: 25px;
 }
 #depoimentos .stars {
   font-size: 27px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 #depoimentos .stars .big {
   font-size: 36px;
@@ -770,7 +785,7 @@ header.large .brand {
 /* Locations
 --------------------------------------------*/
 #locations {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 #locations .location-select-container {
   z-index: 1;
@@ -816,6 +831,7 @@ header.large .brand {
   height: 550px;
   background-color: #ccc;
   top: -70px;
+  margin-bottom: -65px;
 }
 #locations .map h2 {
   color: #003466;
@@ -837,10 +853,10 @@ header.large .brand {
 /* formacoes
 --------------------------------------------*/
 #formacoes {
-  margin-top: 90px;
+  margin-top: 30px;
 }
 #formacoes .row {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 #formacoes .title {
   font-size: 36px;
@@ -856,8 +872,8 @@ header.large .brand {
 }
 #formacoes p {
   font-size: 18px;
-  line-height: 1.7;
   margin-bottom: 30px;
+  line-height: 22px;
 }
 #formacoes .btn-border {
   border: 1px solid #ccc;
@@ -908,17 +924,19 @@ header.large .brand {
 --------------------------------------------*/
 #partners {
   padding: 90px 0;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 #partners .title {
   margin-bottom: 38px;
 }
 #partners h2 {
-  font-size: 46px;
-  font-weight: 900;
-  text-align: center;
-  margin: 0 0 25px 0;
-  padding: 0;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 15px;
+    padding: 0px;
+    color: #003466;
+    text-transform: uppercase;
 }
 #partners .underline {
   height: 4px;
@@ -928,19 +946,25 @@ header.large .brand {
   margin: 0 auto;
 }
 #partners p {
-  margin: 40px 0 60px 0;
-  font-size: 18px;
-  line-height: 1.7;
+    margin: 15px 0px 20px;
+    font-size: 18px;
+    line-height: 1.1;
+    text-align: center;
 }
 /* Contact
 --------------------------------------------*/
 #contact {
-  margin-top: 90px;
+  margin-top: 0px;
 }
 #contact h2 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 900;
-  margin-bottom: 65px;
+  text-align: center;
+  margin: 0px 0px 25px;
+  padding: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 50px
 }
 #contact .contact-info {
   font-size: 18px;
@@ -1054,13 +1078,12 @@ header.large .brand {
  /*** Novo Form ***/
 
 #contact .reservation-form-shadow {
-  height: 480px;
+  height: 450px;
   background-color: #fff;
   box-shadow: 0 9px 0px 0px #ffffff, 0 -9px 0px 0px #ffffff, 7px 0 15px -4px rgba(0, 0, 0, 0.3), -7px 0 15px -4px rgba(0, 0, 0, 0.3);
 }
 #contact form {
   padding: 34px;
-  border: 1px solid #ccc;
 }
 #contact form .alert {
   margin-top: -20px;
@@ -1119,6 +1142,7 @@ header.large .brand {
 }
 #contact form .input-group {
   width: 100%;
+  height: 42px;
 }
 #contact form .input-group input {
   border-radius: 0;
@@ -1249,10 +1273,11 @@ header.large .brand {
 #contact .contact-box-title {
   font-size: 18px;
   font-weight: bold;
+  color: #fff;
 }
 #contact .contact-box {
   background-color: #ededed;
-  padding: 20px;
+  padding: 20px 15px;
 }
 #contact .contact-box .highlight {
   font-weight: bold;
@@ -1264,7 +1289,7 @@ header.large .brand {
   margin-right: 20px;
 }
 #contact .contact-box-name {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
 }
 #contact .contact-box-border {
@@ -1282,9 +1307,9 @@ header.large .brand {
 /* Footer
 --------------------------------------------*/
 footer {
-  margin-top: 90px;
+  margin-top: 0px;
   padding: 40px 0;
-  background-color: #dbdbdb;
+  background-color: #003466;
 }
 footer .footer-nav {
   list-style: none;
@@ -1299,7 +1324,7 @@ footer .footer-nav li {
 footer .footer-nav li a {
   font-size: 18px;
   text-decoration: underline;
-  color: #716d6e;
+  color: #fff;
   font-weight: bold;
 }
 /* Checkout Modal
@@ -2193,17 +2218,18 @@ footer .footer-nav li a {
 **********************************************/
 
 #depoimentos h2 {
-    font-size: 46px;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
     margin: 0px 0px 25px;
     padding: 0px;
+    color: #003466;
+    text-transform: uppercase;
 }
 
 #formacoes h2 {
     font-size: 46px;
     font-weight: 900;
-    text-align: center;
     margin: 0px 0px 25px;
     padding: 0px;
 }
@@ -2225,5 +2251,166 @@ footer .footer-nav li a {
     background-color: #003466;
     margin: 0px auto 50px;
 }
+.grade-curso{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
 
+.themecolor {
+    color: #003466;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom:20px
+}
+
+h2.title-formacoes {
+    text-transform: uppercase;
+    font-size: 72px !important;
+    color: #023669;
+    Text-align: right;
+}
+
+h2.subtitle-formacoes {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+h2.title-cursos {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 5px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #023669;
+}
+
+.underline.title {
+    height: 4px;
+    width: 135px;
+    display: block;
+    background-color: #003466;
+    margin: 30px auto 50px !important;
+}
+
+h2.subtitle-cursos {
+    text-align: center;
+    margin-top: 0;
+}
+
+.bg-section-cursos {
+    width: 100%;
+    background-color: #C1E0FE;
+    padding: 50px 0;
+}
+
+.price-box {
+    width: 18%;
+    padding: 0 10px;
+    float: left;
+    margin: 0 1%;
+    background-color: #C1E0FE;
+}
+
+h1.price-box-text {
+    font-size: 24px;
+    text-align: center;
+    color: #003466;
+    font-weight: 900;
+}
+
+h2.price-box-text {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.price-price-box {
+    background-color: #DE3636;
+    width: 115%;
+    margin-left: -8%;
+    padding: 30px 0px 1px;
+}
+
+.parcelas {
+    font-size: 14px;
+    color: #CCC;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.list-price-box {
+    margin-left: 30px;
+    list-style-image: url("../img/tick.png");
+    line-height: 21px;
+}
+
+.botao-price-box {
+    width: 150px;
+    background-color: #DE3636;
+    margin: 20px auto 30px;
+    padding: 10px 0 12px 0;
+    text-align: center;
+}
+
+a.price-box-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.feature {
+    width: 23%;
+    margin: 0 1%;
+    float: left;
+    padding: 10px;
+}
+
+p.text-feature {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.bg-contato {
+    width: 100%;
+    background-color: #003466;
+    padding: 50px 0 50px 0; 
+}
+
+h4.contact-box-title {
+    margin-top: -10px;
+}
+
+h2.price-box-text {
+    color: #fff !important;
+}
+
+.col-md-3.col-xs-12.pull-right.col-contato {
+    width: 29%;
+}
+
+h1.text-header {
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #003466;
+    left: 0;
+}
+
+p.copyright {
+  color: #fff;
+}
+
+.destaque {
+    background-color: #DE3636;
+    padding: 0px 10px;
+    color: #fff;
+}
+
+h3.service-title {
+    margin-top: -10px !important;
 }
